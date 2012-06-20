@@ -53,6 +53,7 @@ html
   head
     meta charset="utf-8"
     title Sinatra Flash
+    link rel="shortcut icon" href="/favicon.ico"
     link rel="stylesheet" media="screen, projection" href="/styles.css"
   body
     == styled_flash
