@@ -52,13 +52,12 @@ doctype html
 html
   head
     meta charset="utf-8"
-    title Sinatra Flash
+    title Flash Farm Shop
     link rel="shortcut icon" href="/favicon.ico"
     link rel="stylesheet" media="screen, projection" href="/styles.css"
   body
     == styled_flash
     == yield
-
 
 @@index
 h1 Flash Farm Shop!
